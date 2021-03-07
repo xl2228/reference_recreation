@@ -1,0 +1,111 @@
+body{
+  height:100%;
+  margin: 0vmin;
+  padding: 0vmin;
+  font-family: Helvetica;
+  font-weight:  bold;
+
+}
+html{
+  height: 100%;
+  padding: 0vmin;
+  margin: 0vmin;
+
+}
+.page{
+  width: 80vmin;
+  height: 125vmin;
+  margin-left: 50vmin;
+  margin-right: 50vmin;
+  border-left: 3px solid #e35a0c;
+  background-color: #f8fbf2;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+
+
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.bookTitle {
+  margin-left: 4vmin;
+  padding: 2.5vmin;
+  display:flex;
+  flex-direction:column;
+  font-size:5.5vmin;
+  line-height: 2.5rem;
+}
+.bookTitle p:first-child {
+font-size: 3vmin;
+color: #e35a0c;
+}
+
+.bookTitle p:nth-child(2){
+  color:navy;
+}
+
+.bookTitle p:nth-child(3){
+  color:#bd243d;
+}
+
+.logo{
+  position: absolute;
+  left: 100vmin;
+  top: 3.5vmin;
+}
+.logo img{
+  width: 8vmin;
+}
+.sessionMiddle{
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  transform: translate(7%,15%);
+}
+.s1{
+
+  margin-top: 2vmin;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.8vmin;
+  transform: rotate(-58deg)translate(1vmin, -15vmin);
+
+}
+
+.redAuthor{
+  text-align: right;
+  margin-right: 3vmin;
+  color:#bd243d;
+}
+.blueWork{
+  color:navy;
+}
+
+.bigTitle{
+  font-size: 6vmin;
+  letter-spacing: -0.1rem;
+  transform: rotate(-58deg) scale(1.5,1.5) translate(1.5vmin,-4.3vmin);
+  color: #e35a0c;
+}
+
+.s2{
+
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.8vmin;
+  transform: rotate(-58deg)translate(2.5vmin, 2vmin);
+}
+
+.blueWorkEng{
+  text-align: right;
+  margin-right: 3vmin;
+  color:navy;
+}
+.redAuthorEng{
+color:#bd243d;
+
+}
